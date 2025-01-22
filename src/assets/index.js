@@ -29,10 +29,25 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import bao from "./bao.svg";
+import baos from "./baos.png";
+import milk from "./company/milk.jfif";
+import diamond from "./company/diamond.jfif";
+import stu from "./company/student.jfif";
+import fsls from "./fsls.png";
+import milkjoy from "./milkjoy.png";
+import diamondshop from "./diamondshop.png";
 export {
   logo,
+  stu,
+  milkjoy,
+  diamondshop,
+  fsls,
+  diamond,
   backend,
+  milk,
+  baos,
+  bao,
   creator,
   mobile,
   web,
