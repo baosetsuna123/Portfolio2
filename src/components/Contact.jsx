@@ -32,8 +32,8 @@ const Contact = () => {
     setLoading(true);
     emailjs
       .send(
-        import.meta.env.SERVICE_ID,
-        import.meta.env.TEMPLATE_ID,
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Gia Bao",
@@ -41,7 +41,7 @@ const Contact = () => {
           to_email: "baohse321@gmail.com",
           message: form.message,
         },
-        import.meta.env.PUBLIC_KEY
+        import.meta.env.VITE_PUBLIC_KEY
       )
       .then(
         () => {
