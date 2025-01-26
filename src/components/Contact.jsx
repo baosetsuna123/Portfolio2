@@ -29,6 +29,20 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    // Simple validation logic
+    if (!form.name.trim()) {
+      toast.error("Name is required.");
+      return;
+    }
+
+    if (!form.email.trim()) {
+      toast.error("Email is required.");
+      return;
+    }
+    if (!form.message.trim()) {
+      toast.error("Message is required.");
+      return;
+    }
     setLoading(true);
     emailjs
       .send(
