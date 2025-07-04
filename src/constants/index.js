@@ -196,7 +196,7 @@ const projects = [
       },
     ],
     image: fsls,
-    source_code_link: "https://lss-front-end.vercel.app/",
+    source_code_link: "https://github.com/baosetsuna123/LSS_FrontEnd",
   },
   {
     name: "MilkJoy Shop",
